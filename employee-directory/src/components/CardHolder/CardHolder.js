@@ -1,6 +1,6 @@
 import React from "react";
 
-const CardHolder = (props){
+const CardHolder = (props) => {
 
     return (
         <div className="ui four cards">
