@@ -1,6 +1,6 @@
 import React from "react";
 
-const Filter = (props) => {
+const Choices = (props) => {
     return (
         <select className="ui search dropdown" onChange={props.onChange} value ={props.value}>
             <option value="none">Choose a State:</option>
@@ -58,3 +58,5 @@ const Filter = (props) => {
         </select>
     )
 }
+
+export default Choices;
